@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Lara Dafny — Especialista em Marketing Digital</title>
+  <meta name="description" content="Lara Dafny é especialista em marketing digital para marcas premium: gestão de redes sociais, tráfego pago, criação de conteúdo, branding e consultoria estratégica." />
+  <meta name="keywords" content="marketing digital, tráfego pago, social media, branding, consultoria, Lara Dafny" />
+  <meta name="author" content="Lara Dafny" />
+  <meta name="theme-color" content="#0d0a0c" />
+  <meta property="og:title" content="Lara Dafny — Marketing Digital de Alto Padrão" />
+  <meta property="og:description" content="Estratégias digitais sofisticadas para marcas que desejam ser desejadas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/lara-hero.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="preload" as="image" href="/images/lara-hero.png" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__mark">
+      <span>L</span><span class="preloader__amp">&amp;</span><span>D</span>
+    </div>
+    <div class="preloader__bar"><span></span></div>
+  </div>
+
+  <!-- Fundo ambiente: orbes desfocados -->
+  <div class="ambient" aria-hidden="true">
+    <span class="orb orb--1"></span>
+    <span class="orb orb--2"></span>
+    <span class="orb orb--3"></span>
+    <div class="grain"></div>
+  </div>
+
+  <!-- Cursor personalizado (desktop) -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <!-- ============ MENU ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner glass">
+      <a href="#inicio" class="nav__logo" aria-label="Lara Dafny — início">
+        Lara <em>Dafny</em>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema claro e escuro">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <a href="#contato" class="btn btn--small btn--gold nav__cta">Orçamento</a>
+        <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow hero-anim" style="--d:.1s"><span class="dot"></span> Marketing Digital de Alto Padrão</p>
+
+          <h1 class="hero__title">
+            <span class="line"><span class="hero-anim" style="--d:.2s">Lara</span></span>
+            <span class="line"><em class="hero-anim gradient-text" style="--d:.35s">Dafny</em></span>
+          </h1>
+
+          <p class="hero__role hero-anim" style="--d:.5s">Especialista em Marketing Digital</p>
+
+          <p class="hero__lead hero-anim" style="--d:.6s">
+            Transformo marcas em <em>objetos de desejo</em>. Estratégia, estética e performance
+            em perfeita harmonia para negócios que nasceram para se destacar.
+          </p>
+
+          <div class="hero__buttons hero-anim" style="--d:.75s">
+            <a href="#contato" class="btn btn--gold magnetic">
+              <span>Solicitar Orçamento</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#portfolio" class="btn btn--glass magnetic"><span>Ver Portfólio</span></a>
+          </div>
+
+          <div class="hero__trust hero-anim" style="--d:.9s">
+            <div class="hero__avatars">
+              <img src="/images/client-1.png" alt="" width="40" height="40" />
+              <img src="/images/client-2.png" alt="" width="40" height="40" />
+              <img src="/images/client-3.png" alt="" width="40" height="40" />
+            </div>
+            <p><strong>+180 marcas</strong> confiam no meu trabalho</p>
+          </div>
+        </div>
+
+        <div class="hero__visual hero-anim" style="--d:.3s">
+          <div class="hero__frame" data-parallax="0.08">
+            <img src="/images/WhatsApp Image 2026-10-02 at 22.44.30.jpeg" alt="Foto de Lara" width="800" height="1000" />            <div class="hero__shine" aria-hidden="true"></div>
+          </div>
+
+          <div class="float-card glass float-card--top" data-parallax="-0.12">
+            <span class="float-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>
+            </span>
+            <div>
+              <strong>+320%</strong>
+              <small>engajamento médio</small>
+            </div>
+          </div>
+
+          <div class="float-card glass float-card--bottom" data-parallax="-0.06">
+            <div class="stars" aria-label="Avaliação 5 de 5">★★★★★</div>
+            <small>“Visão estratégica impecável.”</small>
+          </div>
+
+          <svg class="hero__ring" viewBox="0 0 200 200" aria-hidden="true">
+            <defs>
+              <path id="circlePath" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0" />
+            </defs>
+            <text><textPath href="#circlePath">ESTRATÉGIA • ESTÉTICA • PERFORMANCE • </textPath></text>
+          </svg>
+        </div>
+      </div>
+
+      <a href="#sobre" class="scroll-hint" aria-label="Rolar para a próxima seção">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Marquee de marcas -->
+    <div class="marquee" aria-label="Segmentos atendidos">
+      <div class="marquee__track">
+        <span>Moda</span><i>✦</i><span>Beleza</span><i>✦</i><span>Joalheria</span><i>✦</i><span>Estética</span><i>✦</i><span>Hotelaria</span><i>✦</i><span>Gastronomia</span><i>✦</i><span>Arquitetura</span><i>✦</i>
+        <span>Moda</span><i>✦</i><span>Beleza</span><i>✦</i><span>Joalheria</span><i>✦</i><span>Estética</span><i>✦</i><span>Hotelaria</span><i>✦</i><span>Gastronomia</span><i>✦</i><span>Arquitetura</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- Manifesto estilo Apple: texto que acende ao rolar -->
+    <section class="manifesto" aria-label="Manifesto">
+      <div class="container">
+        <p class="manifesto__text" id="manifesto">
+          Acredito que marcas extraordinárias não gritam. Elas encantam, inspiram e permanecem na memória. Meu trabalho é dar voz, forma e desejo à sua essência.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ 2. SOBRE ============ -->
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <div class="about__media reveal" data-reveal="left">
+          <div class="about__img scale-on-scroll">
+            <img src="/images/lara-about.png" alt="Lara Dafny trabalhando em seu estúdio" loading="lazy" width="800" height="1000" />
+          </div>
+          <div class="about__badge glass">
+            <strong>8+</strong>
+            <span>anos criando<br />marcas memoráveis</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow reveal"><span class="dot"></span> Sobre mim</p>
+          <h2 class="section-title reveal">Estratégia com <em class="gradient-text">alma</em>, resultados com <em class="gradient-text">elegância</em>.</h2>
+          <p class="reveal">
+            Sou a Lara Dafny, estrategista digital apaixonada por construir marcas que unem beleza e performance.
+            Ao longo de mais de oito anos, ajudei empresas de moda, beleza, saúde e lifestyle a conquistarem
+            posicionamento premium e crescimento consistente no digital.
+          </p>
+          <p class="reveal">
+            Cada projeto é tratado como uma peça exclusiva: com escuta atenta, análise profunda de dados e
+            uma direção criativa que traduz a essência de cada negócio.
+          </p>
+
+          <ul class="diffs">
+            <li class="diff glass reveal" style="--i:0">
+              <span class="diff__num">01</span>
+              <div><h3>Atendimento boutique</h3><p>Poucos clientes, dedicação total e acompanhamento próximo.</p></div>
+            </li>
+            <li class="diff glass reveal" style="--i:1">
+              <span class="diff__num">02</span>
+              <div><h3>Decisões guiadas por dados</h3><p>Relatórios claros e otimização contínua de cada campanha.</p></div>
+            </li>
+            <li class="diff glass reveal" style="--i:2">
+              <span class="diff__num">03</span>
+              <div><h3>Estética de alto padrão</h3><p>Identidade visual sofisticada que eleva a percepção de valor.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. SERVIÇOS ============ -->
+    <section class="section services" id="servicos">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal"><span class="dot"></span> Serviços</p>
+          <h2 class="section-title reveal">Soluções sob medida para <em class="gradient-text">marcas exigentes</em>.</h2>
+        </header>
+
+        <div class="services__grid">
+          <article class="service-card glass tilt reveal" style="--i:0">
+            <div class="service-card__glow" aria-hidden="true"></div>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </span>
+            <h3>Gestão de Redes Sociais</h3>
+            <p>Planejamento editorial, curadoria estética e gestão completa para um perfil que encanta e converte.</p>
+            <span class="service-card__num">01</span>
+          </article>
+
+          <article class="service-card glass tilt reveal" style="--i:1">
+            <div class="service-card__glow" aria-hidden="true"></div>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+            </span>
+            <h3>Tráfego Pago</h3>
+            <p>Campanhas de alta performance no Meta Ads e Google Ads com foco absoluto em retorno sobre investimento.</p>
+            <span class="service-card__num">02</span>
+          </article>
+
+          <article class="service-card glass tilt reveal" style="--i:2">
+            <div class="service-card__glow" aria-hidden="true"></div>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+            </span>
+            <h3>Criação de Conteúdo</h3>
+            <p>Roteiros, fotografia, vídeos e copywriting com narrativa autêntica e linguagem visual refinada.</p>
+            <span class="service-card__num">03</span>
+          </article>
+
+          <article class="service-card glass tilt reveal" style="--i:3">
+            <div class="service-card__glow" aria-hidden="true"></div>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+            </span>
+            <h3>Branding</h3>
+            <p>Posicionamento, identidade visual e tom de voz que transformam seu negócio em uma marca memorável.</p>
+            <span class="service-card__num">04</span>
+          </article>
+
+          <article class="service-card glass tilt reveal" style="--i:4">
+            <div class="service-card__glow" aria-hidden="true"></div>
+            <span class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg>
+            </span>
+            <h3>Consultoria</h3>
+            <p>Diagnóstico estratégico e plano de ação personalizado para acelerar o crescimento da sua marca.</p>
+            <span class="service-card__num">05</span>
+          </article>
+
+          <article class="service-card service-card--cta reveal" style="--i:5">
+            <h3>Precisa de algo exclusivo?</h3>
+            <p>Monto um projeto sob medida para os objetivos do seu negócio.</p>
+            <a href="#contato" class="btn btn--dark magnetic"><span>Vamos conversar</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. RESULTADOS ============ -->
+    <section class="section results" id="resultados">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow reveal"><span class="dot"></span> Resultados</p>
+          <h2 class="section-title reveal">Números que contam <em class="gradient-text">histórias de sucesso</em>.</h2>
+        </header>
+
+        <div class="results__grid">
+          <div class="stat glass reveal" style="--i:0">
+            <p class="stat__value"><span class="counter" data-target="180">0</span><sup>+</sup></p>
+            <p class="stat__label">Clientes atendidos</p>
+          </div>
+          <div class="stat glass reveal" style="--i:1">
+            <p class="stat__value"><span class="counter" data-target="300">0</span><sup>+</sup></p>
+            <p class="stat__label">Projetos concluídos</p>
+          </div>
+          <div class="stat glass reveal" style="--i:2">
+            <p class="stat__value"><span class="counter" data-target="500">0</span><sup>+</sup></p>
+            <p class="stat__label">Campanhas realizadas</p>
+          </div>
+          <div class="stat glass reveal" style="--i:3">
+            <p class="stat__value"><span class="counter" data-target="700">0</span><sup>+</sup></p>
+            <p class="stat__label">Pessoas alcançadas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. PORTFÓLIO ============ -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <header class="section-head section-head--split">
+          <div>
+            <p class="eyebrow reveal"><span class="dot"></span> Portfólio</p>
+            <h2 class="section-title reveal">Projetos <em class="gradient-text">selecionados</em>.</h2>
+          </div>
+          <p class="section-head__aside reveal">Uma curadoria de cases que unem direção criativa e resultados mensuráveis.</p>
+        </header>
+
+        <div class="portfolio__grid">
+          <button class="project project--tall reveal" data-project="0">
+            <img src="/images/project-1.png" alt="Campanha de redes sociais para marca de skincare" loading="lazy" />
+            <span class="project__overlay">
+              <span class="project__tag">Social Media</span>
+              <span class="project__title">Maison Éclat Skincare</span>
+              <span class="project__more">Ver case <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </span>
+          </button>
+          <button class="project reveal" data-project="1">
+            <img src="/images/project-2.png" alt="Identidade visual para boutique de moda" loading="lazy" />
+            <span class="project__overlay">
+              <span class="project__tag">Branding</span>
+              <span class="project__title">Atelier Rosé</span>
+              <span class="project__more">Ver case <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </span>
+          </button>
+          <button class="project reveal" data-project="2">
+            <img src="/images/project-3.png" alt="Campanha digital para marca de joias finas" loading="lazy" />
+            <span class="project__overlay">
+              <span class="project__tag">Tráfego Pago</span>
+              <span class="project__title">Aurum Joias</span>
+              <span class="project__more">Ver case <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </span>
+          </button>
+          <button class="project reveal" data-project="3">
+            <img src="/images/project-4.png" alt="Produção de conteúdo para clínica de estética" loading="lazy" />
+            <span class="project__overlay">
+              <span class="project__tag">Conteúdo</span>
+              <span class="project__title">Clínica Lumière</span>
+              <span class="project__more">Ver case <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </span>
+          </button>
+          <button class="project reveal" data-project="4">
+            <img src="/images/project-5.png" alt="Lançamento de perfume de luxo" loading="lazy" />
+            <span class="project__overlay">
+              <span class="project__tag">Lançamento</span>
+              <span class="project__title">Noir Parfum</span>
+              <span class="project__more">Ver case <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </span>
+          </button>
+          <button class="project project--wide reveal" data-project="5">
+            <img src="/images/project-6.png" alt="Campanha para hotel boutique e spa" loading="lazy" />
+            <span class="project__overlay">
+              <span class="project__tag">Consultoria</span>
+              <span class="project__title">Villa Serena Resort</span>
+              <span class="project__more">Ver case <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. DEPOIMENTOS ============ -->
+    <section class="section testimonials" id="depoimentos">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow reveal"><span class="dot"></span> Depoimentos</p>
+          <h2 class="section-title reveal">O que dizem <em class="gradient-text">minhas clientes</em>.</h2>
+        </header>
+
+        <div class="carousel reveal" id="carousel" aria-roledescription="carrossel" aria-label="Depoimentos de clientes">
+          <div class="carousel__viewport">
+            <div class="carousel__track" id="carouselTrack">
+              <figure class="testimonial glass" role="group" aria-roledescription="slide" aria-label="1 de 3">
+                <span class="testimonial__quote" aria-hidden="true">“</span>
+                <blockquote>A Lara elevou nossa marca a outro patamar. Em seis meses, triplicamos o faturamento online e finalmente temos um Instagram à altura dos nossos produtos.</blockquote>
+                <figcaption>
+                  <img src="/images/client-1.png" alt="" width="56" height="56" loading="lazy" />
+                  <div><strong>Raquel</strong><span>CEO, tonilda</span></div>
+                  <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                </figcaption>
+              </figure>
+              <figure class="testimonial glass" role="group" aria-roledescription="slide" aria-label="2 de 3">
+                <span class="testimonial__quote" aria-hidden="true">“</span>
+                <blockquote>Sensibilidade estética rara combinada com uma visão estratégica impecável. O rebranding mudou completamente a percepção do nosso público.</blockquote>
+                <figcaption>
+                  <img src="/images/client-2.png" alt="" width="56" height="56" loading="lazy" />
+                  <div><strong>Camila Souza</strong><span>Fundadora, Atelier Rosé</span></div>
+                  <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                </figcaption>
+              </figure>
+              <figure class="testimonial glass" role="group" aria-roledescription="slide" aria-label="3 de 3">
+                <span class="testimonial__quote" aria-hidden="true">“</span>
+                <blockquote>Profissional extremamente dedicada. As campanhas de tráfego trouxeram um retorno de 8x sobre o investimento já no primeiro trimestre.</blockquote>
+                <figcaption>
+                  <img src="/images/client-3.png" alt="" width="56" height="56" loading="lazy" />
+                  <div><strong>Rafael Lima</strong><span>Diretor, Villa Serena</span></div>
+                  <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="carousel__controls">
+            <button class="carousel__btn glass" id="prevBtn" aria-label="Depoimento anterior">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+            </button>
+            <div class="carousel__dots" id="carouselDots" role="tablist" aria-label="Selecionar depoimento"></div>
+            <button class="carousel__btn glass" id="nextBtn" aria-label="Próximo depoimento">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. CTA FINAL ============ -->
+    <section class="section cta" aria-labelledby="ctaTitle">
+      <div class="container">
+        <div class="cta__box reveal" data-reveal="scale">
+          <div class="cta__glow" aria-hidden="true"></div>
+          <p class="eyebrow"><span class="dot"></span> Vagas limitadas este mês</p>
+          <h2 class="cta__title" id="ctaTitle">Sua marca merece ser <em>inesquecível</em>.</h2>
+          <p class="cta__text">Agende uma conversa gratuita e descubra como transformar sua presença digital em uma experiência de luxo.</p>
+          <a href="https://wa.me/5585991933564?text=Ol%C3%A1%20Lara!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn btn--light btn--large magnetic">
+            <svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.3L2 22l4.8-1.2A11 11 0 0 0 20.5 3.5zM12 20.1a9 9 0 0 1-4.6-1.3l-.3-.2-2.9.8.8-2.8-.2-.3A9.1 9.1 0 1 1 12 20.1zm5-6.8c-.3-.1-1.6-.8-1.9-.9s-.4-.1-.6.1-.7.9-.9 1.1-.3.2-.6.1a7.4 7.4 0 0 1-3.7-3.2c-.3-.5.3-.5.8-1.6.1-.2 0-.3 0-.5l-.9-2.1c-.2-.6-.5-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3z" fill="currentColor" stroke="none"/></svg>
+            <span>Falar no WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. CONTATO ============ -->
+    <section class="section contact" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow reveal"><span class="dot"></span> Contato</p>
+          <h2 class="section-title reveal">Vamos criar algo <em class="gradient-text">extraordinário</em> juntas?</h2>
+          <p class="reveal">Conte um pouco sobre sua marca e seus objetivos. Respondo pessoalmente em até 24 horas úteis.</p>
+
+          <ul class="channels">
+            <li class="reveal" style="--i:0">
+              <a href="https://wa.me/5585991933564" target="_blank" rel="noopener noreferrer" class="channel glass">
+                <span class="channel__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+                <span><small>WhatsApp</small>(11) 99999-9999</span>
+              </a>
+            </li>
+            <li class="reveal" style="--i:1">
+              <a href="https://instagram.com/laradafny" target="_blank" rel="noopener noreferrer" class="channel glass">
+                <span class="channel__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
+                <span><small>Instagram</small>@laradafny</span>
+              </a>
+            </li>
+            <li class="reveal" style="--i:2">
+              <a href="mailto:contato@laradafny.com.br" class="channel glass">
+                <span class="channel__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M22 7l-10 6L2 7"/></svg></span>
+                <span><small>E-mail</small>contato@laradafny.com.br</span>
+              </a>
+            </li>
+            <li class="reveal" style="--i:3">
+              <a href="https://linkedin.com/in/laradafny" target="_blank" rel="noopener noreferrer" class="channel glass">
+                <span class="channel__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+                <span><small>LinkedIn</small>/in/laradafny</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form glass reveal" id="contactForm" data-reveal="right" novalidate>
+          <h3 class="form__title">Solicite seu orçamento</h3>
+
+          <div class="form__row">
+            <div class="field">
+              <input type="text" id="name" name="name" placeholder=" " required autocomplete="name" />
+              <label for="name">Seu nome</label>
+            </div>
+            <div class="field">
+              <input type="email" id="email" name="email" placeholder=" " required autocomplete="email" />
+              <label for="email">Seu e-mail</label>
+            </div>
+          </div>
+
+          <div class="field">
+            <input type="tel" id="phone" name="phone" placeholder=" " autocomplete="tel" />
+            <label for="phone">WhatsApp (opcional)</label>
+          </div>
+
+          <fieldset class="chips">
+            <legend>Tenho interesse em</legend>
+            <label><input type="checkbox" name="service" value="social" /><span>Redes Sociais</span></label>
+            <label><input type="checkbox" name="service" value="trafego" /><span>Tráfego Pago</span></label>
+            <label><input type="checkbox" name="service" value="conteudo" /><span>Conteúdo</span></label>
+            <label><input type="checkbox" name="service" value="branding" /><span>Branding</span></label>
+            <label><input type="checkbox" name="service" value="consultoria" /><span>Consultoria</span></label>
+          </fieldset>
+
+          <div class="field">
+            <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+            <label for="message">Conte sobre seu projeto</label>
+          </div>
+
+          <button type="submit" class="btn btn--gold btn--full magnetic" id="submitBtn">
+            <span class="btn__text">Enviar mensagem</span>
+            <span class="btn__loader" aria-hidden="true"></span>
+          </button>
+          <p class="form__feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__big" aria-hidden="true">Lara <em>Dafny</em></p>
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> Lara Dafny. Todos os direitos reservados.</p>
+        <p>Feito com estratégia &amp; delicadeza.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal do portfólio -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__dialog glass">
+      <button class="modal__close" data-close aria-label="Fechar detalhes do projeto">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="modal__media"><img id="modalImg" src="/placeholder.svg" alt="" /></div>
+      <div class="modal__body">
+        <span class="project__tag" id="modalTag"></span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <ul class="modal__stats" id="modalStats"></ul>
+        <a href="#contato" class="btn btn--gold" data-close><span>Quero um projeto assim</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botão voltar ao topo -->
+  <button class="to-top glass" id="toTop" aria-label="Voltar ao topo">
+    <svg class="to-top__ring" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" id="toTopRing"/></svg>
+    <svg class="to-top__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+  </button>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>
